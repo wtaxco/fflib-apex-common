@@ -1,6 +1,10 @@
 {
     "packageDirectories": [
         {
+            "path": "ext/fflib-apex-mocks",
+            "default": false
+        },
+        {
             "path": "sfdx-source/apex-common",
             "default": true
         }
