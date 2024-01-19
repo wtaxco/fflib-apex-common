@@ -1,15 +1,22 @@
 {
-    "packageDirectories": [
-        {
-            "path": "ext/fflib-apex-mocks",
-            "default": false
-        },
-        {
-            "path": "sfdx-source/apex-common",
-            "default": true
-        }
-    ],
-    "namespace": "",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "52.0"
+  "packageDirectories": [
+    {
+      "path": "ext/fflib-apex-mocks",
+      "default": false
+    },
+    {
+      "path": "sfdx-source/apex-common",
+      "package": "FFLib Apex Common",
+      "versionName": "Version 1.0.0",
+      "versionNumber": "1.0.0.NEXT",
+      "versionDescription": "Initial release",
+      "default": true
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "52.0",
+  "packageAliases": {
+    "FFLib Apex Common": "0Ho9L000000000fSAA"
+  }
 }
