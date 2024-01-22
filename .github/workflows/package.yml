@@ -16,6 +16,7 @@ jobs:
   package:
     uses: wtaxco/wtax-github-actions-workflows/.github/workflows/create-sfdx-package.yml@main
     with:
+      source-directory: sfdx-source/apex-common
       promote: ${{ inputs.promote != null && inputs.promote }}
     secrets:
       ansible-vault-password: ${{ secrets.VAULT_PASSWORD }}
