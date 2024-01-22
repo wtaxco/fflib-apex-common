@@ -3,9 +3,9 @@
     {
       "path": "sfdx-source/apex-common",
       "package": "fflib-apex-common",
-      "versionName": "Version 1.0.0",
-      "versionNumber": "1.0.0.NEXT",
-      "versionDescription": "Initial release",
+      "versionName": "Version 1.0.1",
+      "versionNumber": "1.0.1.NEXT",
+      "versionDescription": "(put changes here)",
       "default": true,
       "dependencies": [
         {
