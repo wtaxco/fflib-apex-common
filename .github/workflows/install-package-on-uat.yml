@@ -20,5 +20,6 @@ jobs:
     with:
       version-number: ${{ inputs.version-number }}
       package: ${{ inputs.package }}
+      source-directory: sfdx-source/apex-common
     secrets:
       ansible-vault-password: ${{ secrets.VAULT_PASSWORD }}
